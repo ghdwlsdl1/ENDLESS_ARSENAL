@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8095105649094605314
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 217845922385035816}
+  - component: {fileID: 2243326899563992737}
+  m_Layer: 0
+  m_Name: Sniper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &217845922385035816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8095105649094605314}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2243326899563992737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8095105649094605314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a563832cdb3184409d84867ba3f59ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetType: 1
+  projectileKey: Bullet
+  playerMove: {fileID: 0}
+  firePoint: {fileID: 0}
+  aimType: 1
+  aimAngleOffset: 0
+  reverseDirection: 0
+  fireOnlyWhenTargetInRange: 1
+  baseDamage: 28
+  statDamageMultiplier: 1.8
+  attackInterval: 1
+  attackRange: 200
+  projectileSpeed: 1500
+  projectileLifeTime: 10
+  projectileScale: 5
+  fireOffset: 15
+  minRangeOffset: 0
+  maxRangeOffset: 0
+  targetSideErrorRange: 0
+  projectileCount: 0
+  spreadAngle: 0
+  projectileSpacing: 0
+  comboCount: 1
+  comboIntervalMin: 0.1
+  comboIntervalMax: 0.1
+  isPiercing: 1
+  maxPierceCount: 5
+  isExplosive: 0
+  explodeOnExpire: 1
+  explosionRadius: 50
+  explosionDamageRatio: 0.5
+  useExplosionSfx: 0
+  explosionSfx: 0
+  isHoming: 0
+  homingMoveType: 0
+  homingDelay: 0
+  homingSearchRange: 12
+  homingRotateSpeed: 360
+  canRetarget: 0
+  retargetInterval: 0.25
+  useAttackStartSfx: 1
+  attackStartSfx: 24
+  useComboSfx: 0
+  comboSfx: 0

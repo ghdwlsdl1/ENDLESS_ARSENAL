@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2514504033850208485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778522252400843362}
+  - component: {fileID: 2916973463092059290}
+  m_Layer: 0
+  m_Name: Sword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778522252400843362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2514504033850208485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2916973463092059290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2514504033850208485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c33bdd7a33b4c9438a2ee3c908ea9e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetType: 1
+  playerMove: {fileID: 0}
+  attackPoint: {fileID: 0}
+  aimType: 0
+  attackType: 0
+  aimAngleOffset: 0
+  attackOnlyWhenTargetInRange: 1
+  baseDamage: 15
+  statDamageMultiplier: 1.6
+  attackInterval: 1
+  detectRange: 50
+  attackWidth: 40
+  attackDistance: 70
+  attackOffset: -20
+  comboCount: 1
+  comboIntervalMin: 0.1
+  comboIntervalMax: 0.1
+  effectPoolKey: ShinySlash
+  effectWidthMultiplier: 0.25
+  effectDistanceMultiplier: 0.3
+  spawnEffectAtCenter: 1
+  useAttackStartSfx: 1
+  attackStartSfx: 26
+  useComboSfx: 0
+  comboSfx: 0

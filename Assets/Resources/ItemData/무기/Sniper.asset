@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da53d60927cd0334c9034f5c0b576336, type: 3}
+  m_Name: Sniper
+  m_EditorClassIdentifier: 
+  itemName: 저격총
+  icon: {fileID: -1704543262, guid: 95d2eb0fdb1301d45ad46ee4d4b16581, type: 3}
+  width: 4
+  height: 1
+  description: 느리지만 긴 사거리에서 강력한 한 발을 꽂아넣는다.
+  itemType: 0
+  weaponType: 0
+  weaponPrefabPath: Weapons/Sniper
+  equipmentData:
+    positionConditions: []
+    searchConditions: []
+    effects: []

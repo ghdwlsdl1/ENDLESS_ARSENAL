@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da53d60927cd0334c9034f5c0b576336, type: 3}
+  m_Name: Zergling
+  m_EditorClassIdentifier: 
+  itemName: "\uC18C\uD615\uB3C4\uB07C"
+  icon: {fileID: 21300000, guid: b7840641ca3d24e4da874caf4f39fc93, type: 3}
+  width: 2
+  height: 2
+  description: "\uC18C\uD615\uB3C4\uB07C\uB85C \uC800\uAE00\uB9C1 \uD55C\uB2E4"
+  itemType: 0
+  weaponType: 1
+  weaponPrefabPath: Weapons/Zergling
+  equipmentData:
+    positionConditions: []
+    searchConditions: []
+    effects: []

@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3207632171047945623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5144873673470301532}
+  - component: {fileID: 6604058779207480230}
+  m_Layer: 0
+  m_Name: ChineseCleaver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5144873673470301532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207632171047945623}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6604058779207480230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3207632171047945623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4feb21478cedb4dbbb4b0d3a398630, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetType: 1
+  center: {fileID: 0}
+  weaponPrefab: {fileID: 8866014537555685592, guid: f89a98a4f35a15b4bafc2df97ea4639b, type: 3}
+  weaponCount: 3
+  maxWeaponCount: 10
+  baseDamage: 14
+  statDamageMultiplier: 1.4
+  radius: 50
+  rotateSpeed: -180
+  weaponScale: 5
+  movePattern: 0
+  radiusWaveAmount: 0.5
+  radiusWaveSpeed: 2
+  ellipseXMultiplier: 1.5
+  ellipseZMultiplier: 0.7
+  wobbleAngleAmount: 25
+  wobbleSpeed: 3
+  flowerPetalCount: 4
+  flowerAmount: 0.6
+  useHitSfx: 1
+  hitSfx: 26
+  sfxInterval: 0.1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee5356f0a47e259489ef255e92bb13f1, type: 3}
+  m_Name: Dwarf
+  m_EditorClassIdentifier: 
+  startItems:
+  - {fileID: 11400000, guid: 30454a89dabd3304f8424115c1d0663d, type: 2}
+  characterName: "\uB4DC\uC6CC\uD504"
+  maxHp: 150
+  hpRegenPerSecond: 1.5
+  moveSpeed: 55
+  damage: 8
+  expAttractRange: 40
+  weaponDamageMultiplier: 1.15
+  weaponAttackSpeedMultiplier: 0.85
+  weaponRangeMultiplier: 0.9
+  weaponSpeedMultiplier: 0.9
+  weaponScaleMultiplier: 1.2

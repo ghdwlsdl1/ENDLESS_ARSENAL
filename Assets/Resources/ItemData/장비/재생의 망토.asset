@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da53d60927cd0334c9034f5c0b576336, type: 3}
+  m_Name: "\uC7AC\uC0DD\uC758 \uB9DD\uD1A0"
+  m_EditorClassIdentifier: 
+  itemName: "\uC7AC\uC0DD\uC758 \uB9DD\uD1A0"
+  icon: {fileID: 980515981, guid: 76dd31cbaccfbfc499825100a56a3785, type: 3}
+  width: 2
+  height: 2
+  description: "\uB9E8 \uC67C\uCABD \uC904\uC5D0 \uB193\uC73C\uBA74 \uBC29\uC5B4
+    \uBCF8\uB2A5\uC774 \uAE68\uC5B4\uB098 \uCCB4\uB825 \uC7AC\uC0DD\uC774 \uB298\uC5B4\uB09C\uB2E4."
+  itemType: 1
+  weaponType: 0
+  weaponPrefabPath: 
+  equipmentData:
+    positionConditions:
+    - conditionType: 2
+    searchConditions: []
+    effects:
+    - effectType: 7
+      effectValue: 5
