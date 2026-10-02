@@ -5,7 +5,9 @@
 <p align="center">
   <img width="1747" height="984" alt="ENDLESS ARSENAL 게임 화면" src="https://github.com/user-attachments/assets/496f8693-fa75-4ace-970c-82d82c595786" />
 </p>
+
 https://play.google.com/store/apps/details?id=com.chj.EndlessArsenal
+
 ## 주요 기능
 
 - **자동 전투와 다양한 무기** — 투사체, 오라, 궤도형, 펄스형 등 서로 다른 방식으로 동작하는 무기
